@@ -137,8 +137,8 @@ HL_PRIVATE_KEY=0x...      # API key from Hyperliquid (More → API)
 
 ## Performance Expectations
 
-**Returns**: 5-15% APY from funding rates (market-neutral)
-**Risks**: Funding volatility, execution risk (orphan leg), liquidation risk (uses 1x leverage to minimize)
+* **Returns**: 5-15% APY from funding rates (market-neutral)
+* **Risks**: Funding volatility, execution risk (orphan leg), liquidation risk (uses 1x leverage to minimize)
 
 ---
 
@@ -172,6 +172,7 @@ See [CLAUDE.md](CLAUDE.md) for complete technical documentation including:
 - Common pitfalls and fixes
 
 ---
+
 
 
 
