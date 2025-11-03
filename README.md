@@ -1,8 +1,8 @@
 # Hyperliquid Delta-Neutral Trading Bot
 
-An automated trading bot that earns funding rate arbitrage on Hyperliquid by maintaining delta-neutral positions (SHORT PERP + LONG SPOT).
+An automated Node JS trading bot that earns funding rate arbitrage on Hyperliquid by maintaining delta-neutral positions (SHORT PERP + LONG SPOT).
 
-**💰 Support this project**: Sign up with [referral link](https://app.hyperliquid.xyz/join/FREQTRADE) or use code **FREQTRADE** for 10% fee reduction
+**💰 Support this project**: Sign up to Hyperliquid with [referral link](https://app.hyperliquid.xyz/join/FREQTRADE) or use code **FREQTRADE** for 10% fee reduction
 
 ---
 
@@ -188,3 +188,4 @@ See [CLAUDE.md](CLAUDE.md) for complete technical documentation including:
 ## License
 
 MIT
+
