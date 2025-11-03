@@ -2,7 +2,9 @@
 
 An automated Node JS trading bot that earns funding rate arbitrage on Hyperliquid by maintaining delta-neutral positions (SHORT PERP + LONG SPOT).
 
-**💰 Support this project**: Sign up to Hyperliquid with this [referral link](https://app.hyperliquid.xyz/join/FREQTRADE) or use code **FREQTRADE** for 10% fee reduction
+**💰 Support this project**:
+* Sign up to Hyperliquid with this [referral link](https://app.hyperliquid.xyz/join/FREQTRADE) or use code **FREQTRADE** for 10% fee reduction
+* This is an alternative to Liminal, that is also a good option. See [referral link](https://liminal.money/join/FREQTRADE).
 
 ---
 
@@ -170,6 +172,7 @@ See [CLAUDE.md](CLAUDE.md) for complete technical documentation including:
 - Common pitfalls and fixes
 
 ---
+
 
 
 
