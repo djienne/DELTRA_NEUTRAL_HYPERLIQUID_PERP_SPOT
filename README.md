@@ -61,7 +61,7 @@ The bot uses **Hyperliquid API key** (from More → API) which can only trade, n
 - Open SHORT 1 BTC PERP @ $107,500
 - Open LONG 1 UBTC SPOT @ $107,500
 - Net exposure: $0 (hedged)
-- Earn: Funding payments every hour from longs
+- Earn: Funding payments every hour from longs paying people holding short positions (when fundings are positive, that is most of the time)
 
 **The bot automatically**:
 - Selects best opportunities by 7-day avg funding (≥5% APY)
@@ -188,6 +188,7 @@ See [CLAUDE.md](CLAUDE.md) for complete technical documentation including:
 ## License
 
 MIT
+
 
 
 
