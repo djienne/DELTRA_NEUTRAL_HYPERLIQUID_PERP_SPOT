@@ -120,37 +120,23 @@ HL_PRIVATE_KEY=0x...      # API key from Hyperliquid (More → API)
 
 ## Key Features
 
-✅ **Automated Selection**: Ranks opportunities by 7-day avg funding
-✅ **Parallel Execution**: Opens PERP+SPOT simultaneously
-✅ **State Persistence**: Recovers positions after restart
-✅ **Auto-Rebalancing**: Fixes imbalanced positions at startup
-✅ **Negative Funding Protection**: 4-layer defense, auto-switches or closes
-✅ **Quality Filters**: Volume, spreads, funding thresholds
-✅ **Real-time Monitoring**: Status updates every 2 minutes
-✅ **Funding History**: Tracks accumulated earnings
-✅ **Error Handling**: Exponential backoff on rate limits
-✅ **Docker Support**: Easy containerized deployment
-
----
-
-## Safety Features
-
-- **1x Leverage**: Automatically set per-pair before opening (minimizes liquidation risk)
-- **Auto-Close**: Closes PERP if SPOT fails (and vice versa)
-- **Capital Validation**: Checks minimum order sizes before opening
-- **Dust Filtering**: Pre-filters tiny positions before closing
-- **Data Validation**: Prevents NaN values in calculations
-- **Minimum Hold Time**: Avoids excessive trading costs
+* ✅ **Automated Selection**: Ranks opportunities by 7-day avg funding
+* ✅ **Parallel Execution**: Opens PERP+SPOT simultaneously
+* ✅ **State Persistence**: Recovers positions after restart
+* ✅ **Auto-fixing**: Fixes imbalanced positions at startup
+* ✅ **Negative Funding Protection**: 4-layer defense, auto-switches or closes
+* ✅ **Quality Filters**: Volume, spreads, funding thresholds
+* ✅ **Real-time Monitoring**: Status updates every 2 minutes
+* ✅ **Funding History**: Tracks accumulated earnings
+* ✅ **Error Handling**: Exponential backoff on rate limits
+* ✅ **Docker Support**: Easy containerized deployment
 
 ---
 
 ## Performance Expectations
 
 **Returns**: 5-15% APY from funding rates (market-neutral)
-**Costs**: ~0.02% trading fees + 0.05-0.15% slippage
-**Net Expected**: 5-12% APY after costs
-
-**Risks**: Funding volatility, execution risk, platform risk (use 1x leverage to minimize)
+**Risks**: Funding volatility, execution risk (orphan leg), liquidation risk (uses 1x leverage to minimize)
 
 ---
 
@@ -184,10 +170,6 @@ See [CLAUDE.md](CLAUDE.md) for complete technical documentation including:
 - Common pitfalls and fixes
 
 ---
-
-## License
-
-MIT
 
 
 
