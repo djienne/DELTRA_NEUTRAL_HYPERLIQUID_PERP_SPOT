@@ -28,6 +28,7 @@ node bot.js
 ```bash
 cp .env.example .env
 # Edit .env with your HL_WALLET and HL_PRIVATE_KEY
+docker compose build
 docker-compose up -d
 docker-compose logs -f
 ```
@@ -187,6 +188,7 @@ See [CLAUDE.md](CLAUDE.md) for complete technical documentation including:
 ## License
 
 MIT
+
 
 
 
