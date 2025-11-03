@@ -29,8 +29,8 @@ node bot.js
 cp .env.example .env
 # Edit .env with your HL_WALLET and HL_PRIVATE_KEY
 docker compose build
-docker-compose up -d
-docker-compose logs -f
+docker compose up -d
+docker compose logs -f
 ```
 
 > **Note**: Leverage is automatically set to **1x isolated** before opening each position. No manual setup required.
@@ -188,6 +188,7 @@ See [CLAUDE.md](CLAUDE.md) for complete technical documentation including:
 ## License
 
 MIT
+
 
 
 
